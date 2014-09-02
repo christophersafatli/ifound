@@ -1,0 +1,147 @@
+body {
+    max-width: 980px;
+    font: normal 17px/1.5 Arial, sans-serif;
+    color: #79941f;
+    overflow-y: scroll;
+}
+  
+.sign-in {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.sign-in a, .sign-in p{ 
+	color: #d7df21;
+	text-decoration: none;
+	float:right;
+	margin-left:8px;
+}
+
+.signin-layout {
+	float: right;
+	margin-top:10px;
+	margin-right:38px;
+}
+
+/* Logo and header */
+hr {
+	color:	#abc852;
+	display:center auto;
+	width: auto;
+	margin:0px 0px 30px 72px;
+}
+
+.logo {
+	border-radius: 10px;
+	width: 135px;
+	margin:15px 0 0 75px;
+}
+/* END Logo and header */
+ .form-field-email	{
+   border: 1px solid #43433e;
+   background:url('../img/email.png') #fffefc no-repeat 1px 7px;
+   -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+   color: #43433e;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   padding-left:35px;
+}
+   
+ .form-field-password	{
+   border: 1px solid #43433e;
+   background:url('../img/lock.png') #fffefc no-repeat 6px 6px;
+   -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+   color: #43433e;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   padding-left:35px;
+}
+   
+   
+.form-container h2 {
+   text-shadow: #ffffff 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom:10px;
+   color: #abc852;
+   text-shadow: #ffffff 0 1px 0;
+   } 
+.create-account {
+   color: #abc852;
+   text-decoration:none;
+   padding-left:10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:14px;
+   }
+   
+ .create-account:hover {
+	color:#79941f;
+   }
+
+.submit-container {
+   margin:0px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 0px solid #abc852;
+   background: #abc852;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a3c72c), to(#abc852));
+   background: -webkit-linear-gradient(top, #a3c72c, #abc852);
+   background: -moz-linear-gradient(top, #a3c72c, #abc852);
+   background: -ms-linear-gradient(top, #a3c72c, #abc852);
+   background: -o-linear-gradient(top, #a3c72c, #abc852);
+   background-image: -ms-linear-gradient(top, #a3c72c 0%, #abc852 100%);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #abc852 0 1px 0;
+   color: #ffffff;
+   font-size: 12px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+	cursor:pointer;
+	cursor: hand;
+   }
+.submit-button:active {
+   text-shadow: #79941f 0 1px 0;
+   border: 0px solid #79941f;
+   background: #79941f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#79941f), to(#3e779d));
+   background: -webkit-linear-gradient(top, #79941f, #79941f);
+   background: -moz-linear-gradient(top, #79941f, #79941f);
+   background: -ms-linear-gradient(top, #79941f, #79941f);
+   background: -o-linear-gradient(top, #79941f, #79941f);
+   background-image: -ms-linear-gradient(top, #79941f 0%, #79941f 100%);
+   color: #fff;
+   }
+   
+.break {
+   	margin-top:15px;
+}
+.activation {
+	float: right;
+	
+}  

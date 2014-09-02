@@ -1,0 +1,472 @@
+body {
+  margin: 0;
+  padding:0;
+  background-color: #EEEEEE;
+  color: #999999;
+  font-family:  sans-serif;
+  font-weight: 300;
+
+}
+.items-table tbody{
+	text-align:left;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #555555;
+  font-weight: 400;
+  font-family: 'Economica', sans-serif;
+}
+
+footer {
+	background-color: #333333;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/******************************************
+			 Navigation Modification
+*******************************************/
+.nav {
+	margin-bottom: 0;
+}
+
+.navbar-left {
+	background-color: #abc852;
+    border: medium none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-left ul li {
+	position: relative;
+}
+
+.navbar-left ul li a:link,
+.navbar-left ul li a:visited {
+	color: #FFF;
+	font-size: 18px;
+	padding: 15px;
+}
+
+.navbar-left ul li a:hover,
+.navbar-left ul li a.active {
+	background: #cff266;
+}
+
+.navbar-left ul li a.enabled {
+	color: #FFFFFF;
+}
+/*.navbar-left .enabled .arrow {
+	background-color: #abc852;
+    border: none;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -8px;
+    bottom: 20px;
+    transform:rotate(225deg);
+    -ms-transform:rotate(225deg);
+}*/
+
+
+/*********************************
+	Some Bootstrap Override
+*********************************/
+.well {
+    background-color: #DDDDDD;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    color: #666666;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 8px 20px;
+}
+
+.well h3 {
+	margin: 0;
+	color: #666666 !important;
+}
+
+hr {
+	border: none;
+  border-top: 3px solid #FFFFFF;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #DDDDDD;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	height: 40px;
+    line-height: 40px;
+    margin-bottom: 27px;
+}
+
+.btn-theme {
+	background: none repeat scroll 0 0 #abc852;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 13px;
+    margin-bottom: 25px;
+    outline: 0 none;
+    overflow: visible;
+    padding: 12px 20px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-theme:hover {
+	color: #333333;
+	background-color: #b9e23d;
+}
+
+/**********************************
+	 Scroll to Top link 
+***********************************/
+#scrollToTop {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #abc852;
+	color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+	transition:all 0.3s;
+	z-index: 10000;
+}
+
+#scrollToTop:hover {
+	text-decoration: none;
+	background-color: #b9e23d;
+	color: #999999;
+}
+
+/*******************************
+	Social Media links 
+********************************/
+.social-btn {
+	display: block;
+  float: left;
+  padding: 4px 5px;
+}
+
+/********************************
+ Main Sections and Content Area
+*********************************/
+#page1 {
+  opacity: .9; 
+}
+
+#page1 h1 {
+  background-color:#FFFFFF;
+  color:#666666;
+  display:inline-block;
+  font-size:50px;
+  font-weight:200;
+  line-height:1.1em;
+  margin:0;
+  opacity:0.8;
+  padding:20px;
+  text-align:center;
+  text-shadow:none;
+  width:100%;
+}
+
+/*.caption {
+  -webkit-transition:all 500ms linear;
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  margin:0 20% 0 0;
+  opacity:0.9;
+  padding:60px 0;
+  transition:all 500ms linear;
+}*/
+
+#page3,
+#page5 {
+  background-color: #EEEEEE;
+}
+
+#page3 h1,
+#page5 h1 {
+  /*color: #FFFFFF;*/
+}
+
+.window {
+  height: 300px;
+
+}
+
+.pricing h1 {
+  font-size: 45px !important;
+}
+
+.pricing p {
+  padding: 10px 0;
+  border-bottom: 1px dotted #666666;
+}
+
+.page {
+  position: relative;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.page h1 {
+	font-size: 80px;
+  letter-spacing: 0.12em;
+  line-height: 90px;
+  margin: 25px 0;
+}
+
+.page h2 {
+  margin: 25px 0;
+  font-size: 29px;
+  letter-spacing: 0.08em;
+  line-height: 29px;
+}
+
+.page h3 {
+	font-weight: 100;
+	margin-bottom: 30px;
+	color: #999999;
+}
+
+.page .content-byline {
+  color:#999999;
+  font-size:20px;
+  font-weight:300;
+  line-height:1.25;
+  margin-bottom:40px;
+}
+
+.page img {
+	margin: 5px auto;
+	border-radius: 10px;
+	width: 53px;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.large {
+	font-size: 26px;
+}
+
+
+/*********************************
+		Responsive Hacks
+*********************************/
+@media (max-width: 480px) {
+	html, body {
+		overflow-x:hidden;
+	}
+
+  #page1 h1 {
+    font-size: 35px !important;
+  }
+
+  #scrollToTop {
+    top: 0;
+    bottom: auto;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .window {
+    height: 100px;
+  }
+}
+
+
+@media (max-width: 1170px) {
+  .navbar-left {
+    bottom: 0;
+    top:auto;
+    width: 100%;
+    height: 32px;
+  }
+
+  .navbar-left ul li a:link,
+  .navbar-left ul li a:visited {
+    font-size: 18px;
+    padding: 5px 7px;
+    float: left;
+  }
+
+  .navbar-left .enabled .arrow {
+    display: none;
+  }
+
+  .window {
+    height: 200px;
+  }
+
+  #page1 h1 {
+    font-size: 30px;
+  }
+
+  .pricing h1 {
+    font-size: 20px !important;
+  }
+
+  .page h1 {
+    font-size:30px;
+    line-height: 1;
+    margin: 20px 0;
+  }
+
+  .page h2 {
+    font-size:18px;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+
+  .page h3 {
+    line-height: 1;
+    font-size:16px;
+  }
+
+  .page p {
+    font-size: 15px;
+  }
+}
+
+.icons{
+margin:40px;
+}
+
+.items{
+	width:50px;
+	height:50px;
+	background:#0F6;
+	float:right;
+}
+
+#map_canvas{
+	width:100%;
+	height:250px;		
+}
+
+.profile-container{
+	width:500px;
+	height:300px;
+	text-align:left;	
+}
+
+.map-container{
+	width:150px;
+	height:110px;
+	background:#FFF;
+	margin-top:10px;
+}
+
+.title-map a{
+	font-size:16px;
+	background:#abc852;
+	color:#FFF;
+	width:150px;
+	height:30px;
+	padding-top:2px;
+	float:left;
+	text-decoration:none;	
+}
+
+.title-map a:hover{
+	color:#FFF;
+	background:#c2e556;
+	font-weight:bold;
+}
+
+a {
+	color:#abc852;
+}
+a:hover{
+	color:#abc852;
+	text-decoration:none;
+}
+a:focus { 
+    outline: none; 
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+
+/*@media(max-width:768px){
+	
+.dropdown {
+	display: inline-block;
+}
+}*/ 	
+
+.ifoundbtn {
+	margin-top: 0.5em;
+	color: #a3c245;
+}
+
+.ifoundbtn:hover {
+	text-decoration: none;
+	background-color: #abc852;
+	color: #FFF;
+}
+.qrcode canvas{
+	height:54px;
+	width:54px;
+}
+
+.login_1 {
+	margin-top: 0.5em;
+	color: #a3c245;
+	background: #EEEEEE;
+	
+}
+.login_1:hover {
+	text-decoration: none;
+	background-color: #abc852;
+	color: #FFF;
+}
+
+.delete_item {
+	margin:1em 10em 0 0;
+} 
+	
